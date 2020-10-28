@@ -7,6 +7,7 @@ def prime?(num)
   end 
   (2..(num - 1)).each do |n|
     return false if num % n == 0
+    binding.pry 
   end
  return true
 end 
